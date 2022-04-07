@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>
+        My blog
+    </title>
+    <style>
+        .last {
+            background-color: darkkhaki;
+        }
+        .second {
+            background-color: burlywood;
+        }
+        .first {
+            background-color:darkkhaki;
+        }
+        body {
+            background-color: rgba(139, 105, 31, 0.384);
+        }
+        table,
+        th,
+        td {
+            border: 5px solid rgba(30, 43, 54, 0.966);
+           
+        }
+    </style>
+</head>
+
+<body>
+    <header class="first">
+        <center>
+            <h1><em><u>Personal Blog</u></em></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sunt accusantium alias? Iusto laborum
+                architecto cum optio cupiditate dolorum, eaque incidunt doloribus ut maiores illum nemo exercitationem
+                corporis praesentium Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate dolore dolor
+                ipsa, quaerat maiores qui, soluta architecto animi quia natus nisi itaque dicta ipsam? Voluptate quidem
+                maxime deleniti illum natus.</p>
+        </center>
+    </header>
+    <section class="second">
+        <h1><mark><em><u> informations</u></em></mark>
+        </h1>
+        <h3>
+            <u>Full name:</u>
+        </h3>
+        <p>
+            Amina Yasmine
+        </p>
+        <ul>
+            <li>
+                <h3><u>Date and place of birth:</u></h3>
+                <p>october the third, 1970. LA, USA.</p>
+            </li>
+            <li>
+                <h3><u>Speciality:</u></h3>
+                <p>orthodentist</p>
+            </li>
+            <li>
+                <h3><u>Years of experience:</u></h3>
+                <p>10 years</p>
+            </li>
+            <li>
+                <h3><u>Others:</u></h3>
+                <p>programming geek, </p><p> MERN stack web development.</p>
+            </li>
+            <li>
+                <h3><u>Favorite pet:</u></h3>
+                <p>Cats.</p>
+            </li>
+        </ul>
+   
+        <h1><mark><em><u>Projects:</u> </em></mark></h1>
+        <ul>
+            <li>
+                <h3><u>TO DO list using java</u></h3>
+                <p>link: ...</p>
+            </li>
+            <li>
+                <h3><u>Discord bot using Python</u></h3>
+                <p>link: ...</p>
+            </li>
+        </ul>
+        <h1><mark><em><u>Last month's books:</u></em></mark></h1>
+        <ol>
+            <li >La peste, Albert Camus</li>
+            <li>L'etranger, Albert Camus</li>
+            <li>Miracle morning, Hal Eldor</li>
+            <li>Majdoulin, Mostafa Lotfi El-Manfalouti</li>
+        </ol>
+    </section>
+    <section class="second">
+        <center>
+        <img src="https://i.guim.co.uk/img/media/26392d05302e02f7bf4eb143bb84c8097d09144b/446_167_3683_2210/master/3683.jpg?width=620&quality=85&auto=format&fit=max&s=21718fb1379918410ea10054db89f665"
+            alt="cat photo">
+        <figcaption>helloo!!</figcaption>
+        
+        <div>
+            <em><u><h1> List of visited places</h1></u></em>
+                <table border=" 1px solid black">
+                    <tr>
+                        <th>Place</th>
+                        <th>Time</th>
+                        <th>Review</th>
+                    </tr>
+                    <tr>
+                        <td>Telmcen</td>
+                        <td>August 2012</td>
+                        <td>"a very peaceful city"</td>
+
+                    </tr>
+                    <tr>
+                        <td>Boumerdess</td>
+                        <td>July 2021</td>
+                        <td>"sophisticated city, polite people"</td>
+
+                    </tr>
+                    <tr>
+                        <td>Oran</td>
+                        <td>September 2019</td>
+                        <td>"generous people, definitly the best city in Dz"</td>
+                    </tr>
+                </table>
+            
+
+        </div></center>
+    </section>
+    <article class="second">
+        <form action="https://google.com">
+            <fieldset>
+              <legend>Do you like cats?</legend>
+              <label><input  type="radio" > yes</label>
+              <label><input type="radio"> no</label>
+            </fieldset>
+            <fieldset>
+              <legend>What's your personality type?</legend>
+              <input  type="checkbox" > <label for="loving">INTP</label>
+              <input type="checkbox"> <label for="lazy">INTJ</label>
+              <input type="checkbox"> <label for="energetic">Other</label>
+            </fieldset>
+            <input type="text" name="any feed back?" placeholder="any thing you wnt to say?" required>
+            <button type="submit">Submit</button>
+          </form>
+    </article>
+    <footer class="last">
+        <h3>contact:</h3>
+        <ul>
+        <li><a href="mailto:amoudjar5@gmail.com">mail</a></li>
+        <li><a href="https://www.facebook.com">facebook</a></li>
+        <li><a href="tel:+4733378901">+47 333 78 901</a></li>
+    </ul></footer>
+</body>
+
+</html>
